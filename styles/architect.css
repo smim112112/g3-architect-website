@@ -199,7 +199,8 @@ main > section{
 @media screen and (max-width:576px){
     .navbar,
     .nav-links,
-    .teams{
+    .teams,
+    .features{
         flex-direction: column;
     }
     .team-img-container,
