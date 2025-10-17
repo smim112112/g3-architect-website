@@ -146,8 +146,8 @@ main > section{
     }
     .sponsor-companies img{
         filter:grayscale(100);
-        width: 100%;
-        object-fit: contain;
+        /* width: 100%;
+        object-fit: contain; */
     }
     /* features related  */
     #feature-section-title{
