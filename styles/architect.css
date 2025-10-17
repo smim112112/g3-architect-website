@@ -191,14 +191,14 @@ main > section{
         text-align: center;
     }
 /* responsive */
-@media screen and(max-width:576px){
+@media screen and (max-width:576px){
     .navbar,
     .nav-links,
     .teams{
         flex-direction: column;
     }
     .team-img-container,
-    .facts-container
+    .facts-container,
     .sponsor-companies,
     .features{
         grid-template-columns: repeat(1,1fr);
@@ -224,7 +224,7 @@ main > section{
 }
 
 /* medium size device */
-@media screen and(min-width:576px)and (max-width:992px){
+@media screen and (min-width:576px) and (max-width:992px){
     .teams, .features{
         flex-direction: column;
     }
